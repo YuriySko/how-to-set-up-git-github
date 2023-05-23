@@ -14,4 +14,6 @@ Setting->SSH and GPS key
 11. на десктопе проверить соединение с githab с помощью команды ssh -T git@github.com
 на экране должна появиться строка 
 Hi YuriySko! You've successfully authenticated, but GitHub does not provide shell access.
-12 тепперь можно клонировать проекты с гитхаба и пушить их на гитхаб.
+12. теперь можно клонировать проекты с гитхаба
+командой git clone git@github.com:YuriySko/how-to-set-up-git-github.git
+ и пушить их на гитхаб  git push -u origin main
